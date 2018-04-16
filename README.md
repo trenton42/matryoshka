@@ -26,10 +26,6 @@ The maximum weight is specified by the first command line argument. With the tab
 
     $ cat test.txt | lein run 400
 
-Alternatively, a standalone jar file can be downloaded from releases and run without leiningen:
-
-    $ cat test.txt | java -jar matryoshka-0.1.0-standalone.jar 400
-
 ## Caveats
 
 Very large weight values or very long lists will cause the program to take a very long time. A future version could utilize an approximation algorithm to accommodate shifting a large number of dolls when time is of the essence.
